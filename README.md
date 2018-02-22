@@ -40,20 +40,21 @@ Some of the important files and folders are listed below:
 
 
 * With 0.2 as tolerance, we obtained (0.1, 0, 1.82898) as the parameters from the Twidle algorithm. We fine tuned these values to **(0.12, 0, 1.982898)** which provided a satisfactory result.
-* The result of these parameters can be seen in the video **output.mp4** located in 'output' folder.
+* The result of these parameters can be seen in the video [PID Controller](https://youtu.be/yW2sZmGIpMY).
+
 
 
 ### Effects of P, I and D components 
 **P - component effect**
 - To study the effect of Propotional component on the bearing of the car we will run the PID project by setting the value of propotional component parameter to 0 and retaining the other values.
-- As seen in the video **p-effect.mp4** in 'output' folder, the absense of Propotional component reduces the sensitivity of the car to curves.
+- As seen in the video [PID Without P Component](https://youtu.be/QEu23lkjXe0), the absense of Propotional component reduces the sensitivity of the car to curves.
 
 **I - component effect**
 - As it is mentioned above that the value of I parameter in optimized values is 0, we can conclude that Integral component has the minimum effect on deciding the bearing of the car.
 
 **D - component effect**
 - To study the effect of Differential component on the bearing of the car we will run the PID controller by setting the value of differential component parameter to 0 and retaining the other values.
-- As seen in the video **d-effect.mp4** in 'output' folder, tough our car is sensitive to curves, there is considerable loss in the stability of the car and car makes sharp turns from one side of the road to the other.
+- As seen in the video [PID Without D Component](https://youtu.be/C_iVKEg9_Rk), tough our car is sensitive to curves, there is considerable loss in the stability of the car and car makes sharp turns from one side of the road to the other.
 
 
 ## Conclusion
